@@ -6,7 +6,7 @@ const port = 3000;
 app.get("/", (req, res) => {
     const d = new Date();
    const day = d.getDay();
-   console.log(day);
+   //console.log(day);
    let type = "a weekday";
   let adv = "it's time to work hard";
   if (day === 0 || day === 6) {
